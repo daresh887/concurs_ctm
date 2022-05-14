@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
-  font-family: 'Poppins';
+body {
+  background: #0f0f23;
+  color: #cccccc;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14pt;
+  min-width: 60em;
+}
+
+h1 h2, h3, h4, p, ul {
+  color: #cbcaca;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18pt;
+  color: #00cc00;
+  font-weight: normal;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+}
+
+.title {
+  text-align: center;
 }
