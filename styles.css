@@ -30,9 +30,14 @@ body {
     }
 }
   
-  h1 h2, h3, h4, p, ul {
+  h1 h2, h3, h4, p, ul, a {
     color: #cbcaca;
     font-family: 'Source Code Pro', monospace;
+  }
+
+  a {
+    text-decoration: none;
+    color: #5ba35b;
   }
   
   h1, h2 {
